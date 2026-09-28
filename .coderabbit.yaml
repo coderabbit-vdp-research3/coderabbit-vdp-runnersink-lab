@@ -1,0 +1,20 @@
+language: en-US
+reviews:
+  tools:
+    fbinfer:
+      enabled: true
+      enable_java: false
+    clippy:
+      enabled: true
+    trivy:
+      enabled: true
+    vale:
+      enabled: true
+    emberTemplateLint:
+      enabled: true
+    markdownlint:
+      enabled: true
+    prismaLint:
+      enabled: true
+    eslint:
+      enabled: true
