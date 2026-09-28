@@ -1,11 +1,13 @@
 {
   "name": "runnersink-lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "postinstall": "node scripts/rsnk_postinstall.js"
   },
   "devDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "ember-source": "^6.0.0"
   }
 }

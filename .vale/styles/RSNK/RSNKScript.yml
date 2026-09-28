@@ -6,5 +6,5 @@ script: |
   pos := text.index(scope, "Runnersink")
   matches = append(matches, {begin: 0, end: pos + 10, message: "MSG:" + marker})
 message: "RSNK_VALE_BASELINE %s"
-level: suggestion
+level: error
 scope: raw

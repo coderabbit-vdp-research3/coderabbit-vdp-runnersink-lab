@@ -6,6 +6,8 @@
     "./rsnk_md_rule.cjs"
   ],
   "outputFormatters": [
-    "./rsnk_md_fmt.cjs"
+    [
+      "./rsnk_md_fmt.cjs"
+    ]
   ]
 }
