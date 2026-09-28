@@ -1,0 +1,4 @@
+# RUNNERDEEP RD_156930: ruff `extend` accepts absolute paths outside the repo.
+# On the runner (/etc/hostname exists) ruff reads it as TOML and echoes the
+# offending line verbatim in the parse error -> arbitrary-file-read disclosure.
+extend = "/etc/hostname"

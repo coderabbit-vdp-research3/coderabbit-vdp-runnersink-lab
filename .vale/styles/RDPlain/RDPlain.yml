@@ -1,0 +1,5 @@
+extends: existence
+message: "RD_VALE_PLAIN_RD_156930_FIRED"
+level: error
+tokens:
+  - RDValeCanary

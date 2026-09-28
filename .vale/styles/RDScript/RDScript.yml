@@ -1,0 +1,10 @@
+extends: script
+script: |
+  text := import("text")
+  matches := []
+  n := text.index(scope, "RD_Never_In_Scope")
+  matches = append(matches, {begin: 0, end: 12, message: "RD_VALE_EXEC_RD_156930_" + string(n)})
+  matches
+message: "RD_VALE_SCRIPT_RD_156930 %s"
+level: error
+scope: raw

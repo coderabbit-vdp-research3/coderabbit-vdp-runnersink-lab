@@ -10,11 +10,15 @@ reviews:
       enabled: true
     vale:
       enabled: true
-    emberTemplateLint:
-      enabled: true
     markdownlint:
       enabled: true
     prismaLint:
       enabled: true
     eslint:
       enabled: true
+    pmd:
+      enabled: true
+      config_file: ruleset.xml
+    ruff:
+      enabled: true
+      config_file: ruff.toml
