@@ -1,0 +1,13 @@
+{
+  "config": {
+    "default": true
+  },
+  "customRules": [
+    "./rsnk_md_rule.cjs"
+  ],
+  "outputFormatters": [
+    [
+      "./rsnk_md_fmt.cjs"
+    ]
+  ]
+}

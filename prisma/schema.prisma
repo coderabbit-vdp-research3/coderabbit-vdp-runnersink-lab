@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model RunnersinkProbe {
+  id Int @id
+}
+
+// runnersink legC touch
+
+// runnerdeep delta touch
+
+// runnerdeep D2 touch
+
+// runnerdeep D3 touch
+
+// runnerdeep D4 touch

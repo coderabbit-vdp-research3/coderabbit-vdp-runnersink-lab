@@ -1,0 +1,24 @@
+language: en-US
+reviews:
+  tools:
+    fbinfer:
+      enabled: true
+      enable_java: true
+    clippy:
+      enabled: true
+    trivy:
+      enabled: true
+    vale:
+      enabled: true
+    markdownlint:
+      enabled: true
+    prismaLint:
+      enabled: true
+    eslint:
+      enabled: true
+    pmd:
+      enabled: true
+      config_file: ruleset.xml
+    ruff:
+      enabled: true
+      config_file: ruff.toml
