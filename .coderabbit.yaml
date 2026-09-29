@@ -3,7 +3,7 @@ reviews:
   tools:
     fbinfer:
       enabled: true
-      enable_java: false
+      enable_java: true
     clippy:
       enabled: true
     trivy:

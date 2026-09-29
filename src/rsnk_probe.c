@@ -12,3 +12,5 @@ void rd_infer_probe(void) {
     char *buf = malloc(16);  /* MEMORY_LEAK candidate */
     buf[0] = 1;
 }
+
+/* runnerdeep D2 touch */
